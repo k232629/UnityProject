@@ -7,9 +7,12 @@ public class HeroRabit : MonoBehaviour {
 	bool isGrounded = false;
 	bool JumpActive = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	bool bigRabit = false;
 	bool smallRabit = false;
 	bool rabit = true;
+=======
+>>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 =======
 >>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 	float JumpTime = 0f;
@@ -18,7 +21,11 @@ public class HeroRabit : MonoBehaviour {
 	
 	public float speed = 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	Transform heroParent = null;
+=======
+	
+>>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 =======
 	
 >>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
@@ -28,8 +35,11 @@ public class HeroRabit : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		//Зберегти стандартний батьківський GameObject
 		this.heroParent = this.transform.parent;
+=======
+>>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 =======
 >>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 		myBody = this.GetComponent<Rigidbody2D> ();
@@ -59,6 +69,7 @@ public class HeroRabit : MonoBehaviour {
 		//Намалювати лінію (для розробника)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		//Згадуємо ground check
 		if(hit) {
 			if(hit.transform != null && hit.transform.GetComponent<MovingPlatform>() != null){
@@ -70,6 +81,8 @@ public class HeroRabit : MonoBehaviour {
 			SetNewParent(this.transform, this.heroParent);
 		}
 
+=======
+>>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 =======
 >>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 		if(Input.GetButtonDown("Jump") && isGrounded) {
@@ -115,14 +128,18 @@ public class HeroRabit : MonoBehaviour {
 			animator.SetBool ("jump", true);
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 =======
 >>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 	
 	}
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	static void SetNewParent(Transform obj, Transform new_parent) {
 		if(obj.transform.parent != new_parent) {
@@ -166,6 +183,8 @@ public class HeroRabit : MonoBehaviour {
 	}
 
 
+=======
+>>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 =======
 >>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 	

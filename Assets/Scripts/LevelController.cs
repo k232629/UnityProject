@@ -7,10 +7,13 @@ public class LevelController : MonoBehaviour {
 
 	public static LevelController current;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public int coins=0;
 	public int fruits=0;
 	public int crystals=0;
 
+=======
+>>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 =======
 >>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 
@@ -30,6 +33,7 @@ public class LevelController : MonoBehaviour {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		public void addCoins(int n){
 			coins+=n;
 
@@ -45,6 +49,8 @@ public class LevelController : MonoBehaviour {
 
 		}
 
+=======
+>>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 =======
 >>>>>>> 3b17b88c3ff8ea3809bdc46d4609a1d92c6cf50d
 	
